@@ -32,7 +32,7 @@
 
 
             <li class="nav-item">
-                <a class="nav-link" href="~/manage/tables.html">
+                <a class="nav-link" asp-controller="Slider" asp-action="index">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Slider</span>
                 </a>
@@ -46,8 +46,6 @@
             </li>
 
             <!-- Divider -->
-         
-
             <!-- Sidebar Toggler (Sidebar) -->
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
@@ -317,23 +315,33 @@
             </div>
         </div>
 
-        <!-- Bootstrap core JavaScript-->
+        @*Bootstrap core JavaScript*@
         <script src="~/manage/vendor/jquery/jquery.min.js"></script>
         <script src="~/manage/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-        <!-- Core plugin JavaScript-->
+        @*Core plugin JavaScript*@
         <script src="~/manage/vendor/jquery-easing/jquery.easing.min.js"></script>
 
-        <!-- Custom scripts for all pages-->
+        @*Custom scripts for all pages*@
         <script src="~/manage/js/sb-admin-2.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.4/jquery.validate.min.js" integrity="sha512-FOhq9HThdn7ltbK8abmGn60A/EMtEzIzv1rvuh+DqzJtSGq8BRdEN0U+j0iKEIffiw/yEtVuladk6rsG4X6Uqg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js" integrity="sha512-o6XqxgrUsKmchwy9G5VRNWSSxTS4Urr4loO6/0hYdpWmFUfHqGzawGxeQGMDqYzxjY9sbktPbNlkIQJWagVZQg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-        <!-- Page level plugins -->
+        @* Page level plugins*@
         <script src="~/manage/vendor/chart.js/Chart.min.js"></script>
 
-        <!-- Page level custom scripts -->
+        @*Page level custom scripts*@
         <script src="~/manage/js/demo/chart-area-demo.js"></script>
         <script src="~/manage/js/demo/chart-pie-demo.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="~/manage/js/main.js"></script>
 
 
-      </body>
+
+
+
+
+
+
+</body>
 </html>

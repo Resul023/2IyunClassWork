@@ -9,5 +9,6 @@ namespace JuanPr.ViewModels
     public class ProductViewController
     {
         public List<Product> Products { get; set; }
+        public List<Slider> Sliders { get; set; }
     }
 }

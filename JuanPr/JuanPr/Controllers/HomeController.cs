@@ -19,15 +19,15 @@ namespace JuanPr.Controllers
         {
             _context = context;
         }
-       
+
         public IActionResult Index()
         {
             HomeViewModel homeVW = new HomeViewModel
             {
-                Services = _context.Services.ToList(),
+                /*Services = _context.Services.ToList(),*/
                 Sliders = _context.Sliders.ToList(),
-                Products = _context.Products.ToList(),
-            
+                /*Products = _context.Products.ToList(),*/
+
             };
             return View(homeVW);
         }
